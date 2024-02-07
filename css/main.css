@@ -201,6 +201,47 @@ input[class^="btn-"]:hover {
   margin: 0;
 }
 
+.item-concepts {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.item-concepts ul {
+  margin-top: 0.5rem;
+}
+
+.item-repo {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.item-repo a {
+  color: #00e;
+}
+
+.item-repo a:visited { 
+  color: #551a8b; 
+}
+
+.item-repo a:hover { 
+  color: #06e; 
+}​
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: inline;
+  margin-right: 10px;
+}
+li::before {
+  content: "\2022";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 * {
   margin: 0;
   padding: 0;
